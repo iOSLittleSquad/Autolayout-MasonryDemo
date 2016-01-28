@@ -30,6 +30,7 @@
 		38C81A1A1C59B72C0003C874 /* Demo3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C81A191C59B72C0003C874 /* Demo3Controller.m */; };
 		38C81A1D1C59C64D0003C874 /* Demo4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C81A1C1C59C64D0003C874 /* Demo4Controller.m */; };
 		38C81A201C59FD7D0003C874 /* Demo5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C81A1F1C59FD7D0003C874 /* Demo5Controller.m */; };
+		38C81A231C5A18090003C874 /* Demo6Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C81A221C5A18090003C874 /* Demo6Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,8 @@
 		38C81A1C1C59C64D0003C874 /* Demo4Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo4Controller.m; sourceTree = "<group>"; };
 		38C81A1E1C59FD7D0003C874 /* Demo5Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo5Controller.h; sourceTree = "<group>"; };
 		38C81A1F1C59FD7D0003C874 /* Demo5Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo5Controller.m; sourceTree = "<group>"; };
+		38C81A211C5A18090003C874 /* Demo6Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo6Controller.h; sourceTree = "<group>"; };
+		38C81A221C5A18090003C874 /* Demo6Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo6Controller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +240,8 @@
 				38C81A1C1C59C64D0003C874 /* Demo4Controller.m */,
 				38C81A1E1C59FD7D0003C874 /* Demo5Controller.h */,
 				38C81A1F1C59FD7D0003C874 /* Demo5Controller.m */,
+				38C81A211C5A18090003C874 /* Demo6Controller.h */,
+				38C81A221C5A18090003C874 /* Demo6Controller.m */,
 			);
 			name = Demos;
 			sourceTree = "<group>";
@@ -388,6 +393,7 @@
 				38C81A0F1C58CDDB0003C874 /* View+MASAdditions.m in Sources */,
 				38C81A0B1C58CDDB0003C874 /* MASViewAttribute.m in Sources */,
 				38C81A081C58CDDB0003C874 /* MASConstraint.m in Sources */,
+				38C81A231C5A18090003C874 /* Demo6Controller.m in Sources */,
 				38C81A091C58CDDB0003C874 /* MASConstraintMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
