@@ -40,7 +40,8 @@ static NSString *ID = @"tableViewCell";
                       @"不借助contentView的UIScrollView",
                       @"借助contentView的UIScrollView",
                       @"并排label设置优先级",
-                      @"循环创建view的约束"];
+                      @"循环创建view的约束",
+                      @"对NSArray<UIView*>添加约束"];
 }
 
 
