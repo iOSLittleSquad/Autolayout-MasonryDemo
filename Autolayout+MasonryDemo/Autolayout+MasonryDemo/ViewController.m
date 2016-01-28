@@ -38,7 +38,8 @@ static NSString *ID = @"tableViewCell";
     self.examples = @[@"横竖屏保持宽高比例",
                       @"修改约束完成动画",
                       @"不借助contentView的UIScrollView",
-                      @"借助contentView的UIScrollView"];
+                      @"借助contentView的UIScrollView",
+                      @"并排label设置优先级"];
 }
 
 
