@@ -42,7 +42,8 @@ static NSString *ID = @"tableViewCell";
                       @"并排label设置优先级",
                       @"循环创建view的约束",
                       @"对NSArray<UIView*>添加约束",
-                      @"不等高tableview"];
+                      @"不等高tableview",
+                      @"下拉放大tableHeaderView"];
 }
 
 

@@ -36,6 +36,7 @@
 		38C81A301C5B3D5E0003C874 /* Demo8Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C81A2F1C5B3D5E0003C874 /* Demo8Cell.m */; };
 		38C81A331C5B3D6B0003C874 /* Demo8Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C81A321C5B3D6B0003C874 /* Demo8Model.m */; };
 		38C81A351C5B5A630003C874 /* 14b9c8d9c2511608f92a09cdb77802ed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38C81A341C5B5A630003C874 /* 14b9c8d9c2511608f92a09cdb77802ed.jpg */; };
+		38C81A3B1C5B63640003C874 /* Demo9Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C81A3A1C5B63640003C874 /* Demo9Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +119,8 @@
 		38C81A311C5B3D6B0003C874 /* Demo8Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo8Model.h; sourceTree = "<group>"; };
 		38C81A321C5B3D6B0003C874 /* Demo8Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo8Model.m; sourceTree = "<group>"; };
 		38C81A341C5B5A630003C874 /* 14b9c8d9c2511608f92a09cdb77802ed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14b9c8d9c2511608f92a09cdb77802ed.jpg; sourceTree = "<group>"; };
+		38C81A391C5B63640003C874 /* Demo9Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Demo9Controller.h; path = ../Demo9Controller.h; sourceTree = "<group>"; };
+		38C81A3A1C5B63640003C874 /* Demo9Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Demo9Controller.m; path = ../Demo9Controller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +263,8 @@
 				38C81A241C5A20A40003C874 /* Demo7Controller.h */,
 				38C81A251C5A20A40003C874 /* Demo7Controller.m */,
 				38C81A2A1C5B3C4B0003C874 /* Demo8 */,
+				38C81A391C5B63640003C874 /* Demo9Controller.h */,
+				38C81A3A1C5B63640003C874 /* Demo9Controller.m */,
 			);
 			name = Demos;
 			sourceTree = "<group>";
@@ -431,6 +436,7 @@
 				38C81A0B1C58CDDB0003C874 /* MASViewAttribute.m in Sources */,
 				38C81A081C58CDDB0003C874 /* MASConstraint.m in Sources */,
 				38C81A231C5A18090003C874 /* Demo6Controller.m in Sources */,
+				38C81A3B1C5B63640003C874 /* Demo9Controller.m in Sources */,
 				38C81A091C58CDDB0003C874 /* MASConstraintMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
