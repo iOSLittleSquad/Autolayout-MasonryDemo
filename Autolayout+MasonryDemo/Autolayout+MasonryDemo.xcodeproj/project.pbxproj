@@ -32,6 +32,10 @@
 		38C81A201C59FD7D0003C874 /* Demo5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C81A1F1C59FD7D0003C874 /* Demo5Controller.m */; };
 		38C81A231C5A18090003C874 /* Demo6Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C81A221C5A18090003C874 /* Demo6Controller.m */; };
 		38C81A261C5A20A40003C874 /* Demo7Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C81A251C5A20A40003C874 /* Demo7Controller.m */; };
+		38C81A2D1C5B3C840003C874 /* Demo8Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C81A2C1C5B3C840003C874 /* Demo8Controller.m */; };
+		38C81A301C5B3D5E0003C874 /* Demo8Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C81A2F1C5B3D5E0003C874 /* Demo8Cell.m */; };
+		38C81A331C5B3D6B0003C874 /* Demo8Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C81A321C5B3D6B0003C874 /* Demo8Model.m */; };
+		38C81A351C5B5A630003C874 /* 14b9c8d9c2511608f92a09cdb77802ed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38C81A341C5B5A630003C874 /* 14b9c8d9c2511608f92a09cdb77802ed.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +111,13 @@
 		38C81A221C5A18090003C874 /* Demo6Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo6Controller.m; sourceTree = "<group>"; };
 		38C81A241C5A20A40003C874 /* Demo7Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo7Controller.h; sourceTree = "<group>"; };
 		38C81A251C5A20A40003C874 /* Demo7Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo7Controller.m; sourceTree = "<group>"; };
+		38C81A2B1C5B3C840003C874 /* Demo8Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo8Controller.h; sourceTree = "<group>"; };
+		38C81A2C1C5B3C840003C874 /* Demo8Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo8Controller.m; sourceTree = "<group>"; };
+		38C81A2E1C5B3D5E0003C874 /* Demo8Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo8Cell.h; sourceTree = "<group>"; };
+		38C81A2F1C5B3D5E0003C874 /* Demo8Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo8Cell.m; sourceTree = "<group>"; };
+		38C81A311C5B3D6B0003C874 /* Demo8Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo8Model.h; sourceTree = "<group>"; };
+		38C81A321C5B3D6B0003C874 /* Demo8Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo8Model.m; sourceTree = "<group>"; };
+		38C81A341C5B5A630003C874 /* 14b9c8d9c2511608f92a09cdb77802ed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14b9c8d9c2511608f92a09cdb77802ed.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +168,7 @@
 		38C819B71C58CAAB0003C874 /* Autolayout+MasonryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				38C81A341C5B5A630003C874 /* 14b9c8d9c2511608f92a09cdb77802ed.jpg */,
 				38C81A111C58D6C20003C874 /* Demos */,
 				38C819EB1C58CDDB0003C874 /* Masonry */,
 				38C819BB1C58CAAB0003C874 /* AppDelegate.h */,
@@ -247,8 +259,22 @@
 				38C81A221C5A18090003C874 /* Demo6Controller.m */,
 				38C81A241C5A20A40003C874 /* Demo7Controller.h */,
 				38C81A251C5A20A40003C874 /* Demo7Controller.m */,
+				38C81A2A1C5B3C4B0003C874 /* Demo8 */,
 			);
 			name = Demos;
+			sourceTree = "<group>";
+		};
+		38C81A2A1C5B3C4B0003C874 /* Demo8 */ = {
+			isa = PBXGroup;
+			children = (
+				38C81A2B1C5B3C840003C874 /* Demo8Controller.h */,
+				38C81A2C1C5B3C840003C874 /* Demo8Controller.m */,
+				38C81A2E1C5B3D5E0003C874 /* Demo8Cell.h */,
+				38C81A2F1C5B3D5E0003C874 /* Demo8Cell.m */,
+				38C81A311C5B3D6B0003C874 /* Demo8Model.h */,
+				38C81A321C5B3D6B0003C874 /* Demo8Model.m */,
+			);
+			name = Demo8;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,6 +383,7 @@
 			files = (
 				38C81A061C58CDDB0003C874 /* Info.plist in Resources */,
 				38C819C81C58CAAB0003C874 /* LaunchScreen.storyboard in Resources */,
+				38C81A351C5B5A630003C874 /* 14b9c8d9c2511608f92a09cdb77802ed.jpg in Resources */,
 				38C819C51C58CAAB0003C874 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +412,7 @@
 				38C81A261C5A20A40003C874 /* Demo7Controller.m in Sources */,
 				38C81A201C59FD7D0003C874 /* Demo5Controller.m in Sources */,
 				38C81A0E1C58CDDB0003C874 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				38C81A301C5B3D5E0003C874 /* Demo8Cell.m in Sources */,
 				38C81A0C1C58CDDB0003C874 /* MASViewConstraint.m in Sources */,
 				38C81A071C58CDDB0003C874 /* MASCompositeConstraint.m in Sources */,
 				38C81A0D1C58CDDB0003C874 /* NSArray+MASAdditions.m in Sources */,
@@ -392,8 +420,10 @@
 				38C819BD1C58CAAB0003C874 /* AppDelegate.m in Sources */,
 				38C81A141C58D6D80003C874 /* Demo1Controller.m in Sources */,
 				38C81A0A1C58CDDB0003C874 /* MASLayoutConstraint.m in Sources */,
+				38C81A2D1C5B3C840003C874 /* Demo8Controller.m in Sources */,
 				38C81A1D1C59C64D0003C874 /* Demo4Controller.m in Sources */,
 				38C81A1A1C59B72C0003C874 /* Demo3Controller.m in Sources */,
+				38C81A331C5B3D6B0003C874 /* Demo8Model.m in Sources */,
 				38C81A171C58DBF00003C874 /* Demo2Controller.m in Sources */,
 				38C819BA1C58CAAB0003C874 /* main.m in Sources */,
 				38C81A101C58CDDB0003C874 /* ViewController+MASAdditions.m in Sources */,
