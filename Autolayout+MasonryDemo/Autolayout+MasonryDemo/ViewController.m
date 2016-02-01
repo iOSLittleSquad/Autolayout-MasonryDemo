@@ -43,7 +43,8 @@ static NSString *ID = @"tableViewCell";
                       @"循环创建view的约束",
                       @"对NSArray<UIView*>添加约束",
                       @"不等高tableview",
-                      @"下拉放大tableHeaderView"];
+                      @"下拉放大tableHeaderView",
+                      @"子视图占据父视图一定比例"];
 }
 
 
